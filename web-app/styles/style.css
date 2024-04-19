@@ -46,7 +46,7 @@ header h1 {
 }
 
 .data-images img, .visualization-image {
-    width: calc(33.333% - 10px);
+    width: calc(55% - 10px);
     height: auto;
 }
 
