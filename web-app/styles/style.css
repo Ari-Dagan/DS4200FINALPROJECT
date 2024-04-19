@@ -90,3 +90,37 @@ header h1 {
     padding: 10px;
     box-sizing: border-box;
 }
+
+#reference-links, #data-set {
+    text-align: left;
+    margin: 0 15%;
+    padding-bottom: 20px;
+}
+
+#reference-links .section-title, #data-set .section-title {
+    margin-bottom: 10px;
+}
+
+.reference-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.reference-list li {
+    padding: 5px 0;
+}
+
+.reference-list li a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.reference-list li a:hover {
+    text-decoration: underline;
+}
+
+.content-description {
+    margin-bottom: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+}
