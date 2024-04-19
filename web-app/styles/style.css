@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.project-by {
+    font-size: 1em;
+    text-align: center;
+    font-weight: normal;
+    margin-top: -10px;
+}
+
+.section-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    margin: 40px 15% 20px;
+}
+
+#introduction, #our-data, .visualization, #summary {
+    margin: 0 15%;
+}
+
+#introduction h2, #our-data h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.data-images, .visualization-content {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.data-images img, .visualization-image {
+    width: calc(33.333% - 10px);
+    height: auto;
+}
+
+.data-description, .visualization-text, .summary-text {
+    text-align: left;
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.visualization-iframe {
+    width: 75%;
+    height: 800px;
+    border: none;
+    margin: 20px auto;
+    display: block;
+}
+
+.visualization h3 {
+    font-size: 1em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.visualization h3 strong {
+    font-weight: bold;
+}
+
+.visualization-text {
+    width: 75%;
+    margin: 0 auto 40px;
+}
+
+#summary {
+    text-align: left;
+}
+
+.summary-text {
+    text-align: left;
+    margin: 20px 15%;
+    padding: 10px;
+    box-sizing: border-box;
+}
